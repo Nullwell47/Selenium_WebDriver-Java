@@ -1,0 +1,530 @@
+{
+  "id": "11e6dcbd-0900-4030-a054-7860c09f2dfb",
+  "version": "2.0",
+  "name": "Test Project",
+  "url": "https://livros.inoveteste.com.br/contato/",
+  "tests": [{
+    "id": "c69bc56c-a929-4b9e-be7e-d135856df60d",
+    "name": "Test 1",
+    "commands": [{
+      "id": "c2eb2a84-bebc-41b5-b417-3d77be0449ca",
+      "comment": "",
+      "command": "//Acessar a página de contato do site Inove Teste",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c81903e0-25e7-4e07-b4dc-bb0266525c3f",
+      "comment": "",
+      "command": "open",
+      "target": "/contato",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fd702dcc-5587-4fb3-89aa-5e5eb568cef2",
+      "comment": "",
+      "command": "//Validar os layouts do formulário de contato",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7842db9c-52ad-4f9b-a61b-d6009ad328dd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wpb_column:nth-child(2) h1",
+      "targets": [
+        ["css=.wpb_column:nth-child(2) h1", "css:finder"],
+        ["xpath=//div[2]/div/div/div/div/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Demais contatos')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc4e07aa-b74e-4f9a-9c92-bd9bc0cbc17a",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2466267-6122-4352-b049-597940ea3df5",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "628a4b40-b0c3-485a-b685-2ffe949dae9a",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "name=your-name",
+      "targets": [
+        ["name=your-name", "name"],
+        ["css=.your-name > .wpcf7-form-control", "css:finder"],
+        ["xpath=//input[@name='your-name']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f372-p24-o1']/form/p/label/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "523ef7f5-b6a9-473d-b496-306c24162962",
+      "comment": "",
+      "command": "type",
+      "target": "name=your-name",
+      "targets": [
+        ["name=your-name", "name"],
+        ["css=.your-name > .wpcf7-form-control", "css:finder"],
+        ["xpath=//input[@name='your-name']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f372-p24-o1']/form/p/label/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "37703f63-82b6-4690-9a07-235ffbc8eda1",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": "-54,426"
+    }, {
+      "id": "4bb526fb-a027-4ab1-9851-7b73993994dd",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": "-54,426"
+    }, {
+      "id": "4c358f86-2846-45f1-a80f-4dc282f10f9b",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": "-54,426"
+    }, {
+      "id": "25092026-77a0-4928-bcc5-99ed26a72a44",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0656d755-573b-497c-ae8a-542cec43549a",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "name=your-email",
+      "targets": [
+        ["name=your-email", "name"],
+        ["css=.wpcf7-email", "css:finder"],
+        ["xpath=//input[@name='your-email']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f372-p24-o1']/form/p[2]/label/span/input", "xpath:idRelative"],
+        ["xpath=//p[2]/label/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "663b572a-2085-42aa-af60-d12139976bee",
+      "comment": "",
+      "command": "type",
+      "target": "name=your-email",
+      "targets": [
+        ["name=your-email", "name"],
+        ["css=.wpcf7-email", "css:finder"],
+        ["xpath=//input[@name='your-email']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f372-p24-o1']/form/p[2]/label/span/input", "xpath:idRelative"],
+        ["xpath=//p[2]/label/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f064c19-42b7-43f2-86b4-6c004f255098",
+      "comment": "",
+      "command": "click",
+      "target": "name=your-subject",
+      "targets": [
+        ["name=your-subject", "name"],
+        ["css=.your-subject > .wpcf7-form-control", "css:finder"],
+        ["xpath=//input[@name='your-subject']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f372-p24-o1']/form/p[3]/label/span/input", "xpath:idRelative"],
+        ["xpath=//p[3]/label/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c80ca448-9a38-4ddf-b6f0-86a28439b209",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "name=your-subject",
+      "targets": [
+        ["name=your-subject", "name"],
+        ["css=.your-subject > .wpcf7-form-control", "css:finder"],
+        ["xpath=//input[@name='your-subject']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f372-p24-o1']/form/p[3]/label/span/input", "xpath:idRelative"],
+        ["xpath=//p[3]/label/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9de3acc1-0ff3-40c8-b175-30315c830212",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "name=your-message",
+      "targets": [
+        ["name=your-message", "name"],
+        ["css=.wpcf7-textarea", "css:finder"],
+        ["xpath=//textarea[@name='your-message']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f372-p24-o1']/form/p[4]/label/span/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1bd25447-8b18-4786-8924-3ad0bd7b513b",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.wpcf7-submit",
+      "targets": [
+        ["css=.wpcf7-submit", "css:finder"],
+        ["xpath=//input[@value='Enviar']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f372-p24-o1']/form/p[5]/input", "xpath:idRelative"],
+        ["xpath=//p[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "707e070f-d4da-475a-8af4-3b197e78a594",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "b65ffaff-5231-476d-8ab6-aba4afeddbab",
+    "name": "Test 2 ",
+    "commands": [{
+      "id": "b6fbb85f-323f-4891-b7ca-eb0fc3a55a8b",
+      "comment": "",
+      "command": "//Acessar a página de contato do site Inove Teste",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6ab1e769-66df-44bb-a1cd-c49c9b6926b0",
+      "comment": "",
+      "command": "open",
+      "target": "/contato",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9074563b-e97f-4c4e-9da8-3d33ca22fc60",
+      "comment": "",
+      "command": "//Validar os layouts do formulário de contato",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a0db8b1c-4880-4ff4-84bc-9478024404e6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wpcf7-submit",
+      "targets": [
+        ["css=.wpcf7-submit", "css:finder"],
+        ["xpath=//input[@value='Enviar']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f372-p24-o1']/form/p[5]/input", "xpath:idRelative"],
+        ["xpath=//p[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b8ad28ee-e7d6-4294-adb3-612d373bb951",
+      "comment": "",
+      "command": "//Valida as c´riticas dos campos obrigatórios",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0ff8a15b-5890-49d7-a48d-69277c7ace60",
+      "comment": "",
+      "command": "pause",
+      "target": "10000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2e9ff88c-b0db-452f-8989-b198d7f0b055",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.your-name > .wpcf7-not-valid-tip",
+      "targets": [
+        ["css=.your-name > .wpcf7-not-valid-tip", "css:finder"],
+        ["xpath=//div[@id='wpcf7-f372-p24-o1']/form/p/label/span/span", "xpath:idRelative"],
+        ["xpath=//span/span", "xpath:position"]
+      ],
+      "value": "O campo é obrigatório."
+    }, {
+      "id": "74d3c932-9a53-4484-a179-84b05f3b3157",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.your-email > .wpcf7-not-valid-tip",
+      "targets": [
+        ["css=.your-email > .wpcf7-not-valid-tip", "css:finder"],
+        ["xpath=//div[@id='wpcf7-f372-p24-o1']/form/p[2]/label/span/span", "xpath:idRelative"],
+        ["xpath=//p[2]/label/span/span", "xpath:position"]
+      ],
+      "value": "O campo é obrigatório."
+    }, {
+      "id": "2262c093-bb21-40c8-bd8c-05a6d1ab3af6",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.your-subject > .wpcf7-not-valid-tip",
+      "targets": [
+        ["css=.your-subject > .wpcf7-not-valid-tip", "css:finder"],
+        ["xpath=//div[@id='wpcf7-f372-p24-o1']/form/p[3]/label/span/span", "xpath:idRelative"],
+        ["xpath=//p[3]/label/span/span", "xpath:position"]
+      ],
+      "value": "O campo é obrigatório."
+    }, {
+      "id": "2305a4a8-ae74-42c8-8ab4-489cfffe99d9",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.your-message > .wpcf7-not-valid-tip",
+      "targets": [
+        ["css=.your-message > .wpcf7-not-valid-tip", "css:finder"],
+        ["xpath=//div[@id='wpcf7-f372-p24-o1']/form/p[4]/label/span/span", "xpath:idRelative"],
+        ["xpath=//p[4]/label/span/span", "xpath:position"]
+      ],
+      "value": "O campo é obrigatório."
+    }]
+  }, {
+    "id": "ee666d4c-6b41-47e8-b67f-660bb1788294",
+    "name": "Test 3",
+    "commands": [{
+      "id": "f83f2fb2-caf5-4df6-93f1-728a4bac9f4b",
+      "comment": "",
+      "command": "//Acessar a página de contato do site Inove Teste",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "945e0243-e7bd-4f6e-984a-8a75511a32f3",
+      "comment": "",
+      "command": "open",
+      "target": "/contato",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "464793f1-a2d1-4059-87af-31ba9d622c3a",
+      "comment": "",
+      "command": "//Preenche todos os campos do formulário de contato",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b46dab77-c735-4864-a19e-37acf7ebf065",
+      "comment": "",
+      "command": "click",
+      "target": "name=your-name",
+      "targets": [
+        ["name=your-name", "name"],
+        ["css=.your-name > .wpcf7-form-control", "css:finder"],
+        ["xpath=//input[@name='your-name']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f372-p24-o1']/form/p/label/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4ee75bb-88ca-4776-8b70-a7c6b71afbe4",
+      "comment": "",
+      "command": "type",
+      "target": "name=your-name",
+      "targets": [
+        ["name=your-name", "name"],
+        ["css=.your-name > .wpcf7-form-control", "css:finder"],
+        ["xpath=//input[@name='your-name']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f372-p24-o1']/form/p/label/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "Emanoel"
+    }, {
+      "id": "a6f9929b-01ab-4348-893b-db4ea464d2c5",
+      "comment": "",
+      "command": "type",
+      "target": "name=your-email",
+      "targets": [
+        ["name=your-email", "name"],
+        ["css=.wpcf7-email", "css:finder"],
+        ["xpath=//input[@name='your-email']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f372-p24-o1']/form/p[2]/label/span/input", "xpath:idRelative"],
+        ["xpath=//p[2]/label/span/input", "xpath:position"]
+      ],
+      "value": "contato@"
+    }, {
+      "id": "b086e4e2-99de-4c5f-8f09-236807228cb1",
+      "comment": "",
+      "command": "click",
+      "target": "name=your-name",
+      "targets": [
+        ["name=your-name", "name"],
+        ["css=.your-name > .wpcf7-form-control", "css:finder"],
+        ["xpath=//input[@name='your-name']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f372-p24-o1']/form/p/label/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "500a60e3-d6bc-4414-8ea2-7fc9babb1bc3",
+      "comment": "",
+      "command": "type",
+      "target": "name=your-name",
+      "targets": [
+        ["name=your-name", "name"],
+        ["css=.your-name > .wpcf7-form-control", "css:finder"],
+        ["xpath=//input[@name='your-name']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f372-p24-o1']/form/p/label/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "Emanoel Rosa"
+    }, {
+      "id": "568c8e00-bacc-408a-acec-a6007be2a6dc",
+      "comment": "",
+      "command": "click",
+      "target": "name=your-email",
+      "targets": [
+        ["name=your-email", "name"],
+        ["css=.wpcf7-email", "css:finder"],
+        ["xpath=//input[@name='your-email']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f372-p24-o1']/form/p[2]/label/span/input", "xpath:idRelative"],
+        ["xpath=//p[2]/label/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2fc7343e-9132-45ac-9c33-0f1f5b4b491a",
+      "comment": "",
+      "command": "type",
+      "target": "name=your-email",
+      "targets": [
+        ["name=your-email", "name"],
+        ["css=.wpcf7-email", "css:finder"],
+        ["xpath=//input[@name='your-email']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f372-p24-o1']/form/p[2]/label/span/input", "xpath:idRelative"],
+        ["xpath=//p[2]/label/span/input", "xpath:position"]
+      ],
+      "value": "contato@teste.com"
+    }, {
+      "id": "0ce5cfde-3e52-4be3-a7c4-0e34c179b71b",
+      "comment": "",
+      "command": "click",
+      "target": "name=your-subject",
+      "targets": [
+        ["name=your-subject", "name"],
+        ["css=.your-subject > .wpcf7-form-control", "css:finder"],
+        ["xpath=//input[@name='your-subject']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f372-p24-o1']/form/p[3]/label/span/input", "xpath:idRelative"],
+        ["xpath=//p[3]/label/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "834f7f5a-4f57-4228-815f-73f727d4a45b",
+      "comment": "",
+      "command": "type",
+      "target": "name=your-subject",
+      "targets": [
+        ["name=your-subject", "name"],
+        ["css=.your-subject > .wpcf7-form-control", "css:finder"],
+        ["xpath=//input[@name='your-subject']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f372-p24-o1']/form/p[3]/label/span/input", "xpath:idRelative"],
+        ["xpath=//p[3]/label/span/input", "xpath:position"]
+      ],
+      "value": "Test Project"
+    }, {
+      "id": "219e05f7-981e-479b-ba0e-6c51ff7b76ae",
+      "comment": "",
+      "command": "click",
+      "target": "name=your-message",
+      "targets": [
+        ["name=your-message", "name"],
+        ["css=.wpcf7-textarea", "css:finder"],
+        ["xpath=//textarea[@name='your-message']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f372-p24-o1']/form/p[4]/label/span/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc977a32-8e00-48c8-9888-22caad960077",
+      "comment": "",
+      "command": "type",
+      "target": "name=your-message",
+      "targets": [
+        ["name=your-message", "name"],
+        ["css=.wpcf7-textarea", "css:finder"],
+        ["xpath=//textarea[@name='your-message']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f372-p24-o1']/form/p[4]/label/span/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Estou fazendo um teste."
+    }, {
+      "id": "03d5d720-c54b-4592-b8b2-1fbfde8c9a94",
+      "comment": "",
+      "command": "//Clica no botão Enviar",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ef810e2a-63ef-4708-afcf-a8e926c77291",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wpcf7-submit",
+      "targets": [
+        ["css=.wpcf7-submit", "css:finder"],
+        ["xpath=//input[@value='Enviar']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f372-p24-o1']/form/p[5]/input", "xpath:idRelative"],
+        ["xpath=//p[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b3c409e-34a5-4d28-a88a-acb3de295dd1",
+      "comment": "",
+      "command": "//Valida a mensagem de sucesso do envio",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7b42700a-6a58-4424-bb40-622a97677b2b",
+      "comment": "",
+      "command": "pause",
+      "target": "10000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8ec8d74f-3c11-45ea-aded-126652861e53",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.wpcf7-response-output",
+      "targets": [
+        ["css=.wpcf7-response-output", "css:finder"],
+        ["xpath=//div[@id='wpcf7-f372-p24-o1']/form/div[2]", "xpath:idRelative"],
+        ["xpath=//form/div[2]", "xpath:position"]
+      ],
+      "value": "Agradecemos a sua mensagem. Responderemos em breve."
+    }]
+  }],
+  "suites": [{
+    "id": "af965234-fb71-4fcd-8b66-32792906b5a7",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c69bc56c-a929-4b9e-be7e-d135856df60d"]
+  }],
+  "urls": ["https://livros.inoveteste.com.br/contato/"],
+  "plugins": []
+}
